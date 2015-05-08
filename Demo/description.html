@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <style type="text/css">
+        body {
+            color: #000000;
+            font-family: 'Segoe UI',Verdana,Arial;
+            font-size: 0.813em;
+            font-style: normal;
+            word-wrap: break-word;
+        }
+
+        h1 {
+            color: #3a3e43;
+            font-family: "Segoe UI",Verdana,Arial;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #3A3E43;
+            font-family: 'Segoe UI',Verdana,Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        table {
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 40px;
+            padding-left: 0;
+        }
+
+            ul li {
+                padding-bottom: 10px;
+            }
+
+        ol {
+            margin-left: 40px;
+            padding-left: 0;
+        }
+
+            ol li {
+                padding-bottom: 10px;
+            }
+    </style>
+
+    <meta charset="utf-8" />
+    <title>Microsoft Project Oxford Face API CSharp Samples</title>
+
+</head>
+<body>
+    <h1>Microsoft Project Oxford Face API CSharp Samples</h1>
+    <br />
+    <table class="table">
+        <tr><td>Technologies</td><td>Face API, WPF</td></tr>
+        <tr><td>Development Environment</td><td>Visual Studio 2013</td></tr>
+        <tr><td>Platforms/Languages</td><td>Windows Desktop; .NET 4.5, C#</td></tr>
+        <tr><td>OS requirements</td><td>Windows 8 or higher, Windows Server 2012 or higher</td></tr>
+        <tr><td>Updated</td><td>04/13/2015</td></tr>
+    </table>
+    <br />
+    <h2>Introduction</h2>
+    <p>
+        This sample app contains multiple samples to demonstrate how use Face API Client Library to make Face APIs calls. Specifically:
+        <ul>
+            <li>
+                <b>Face Detection:</b> to detect faces in an image.<br />
+                By input a local image, call Detection API to render face rectangles, and get other attributes including gender, age and head-pose.
+            </li>
+            <li>
+                <b>Face Verification:</b> to check two faces belonging to same person or not.<br />
+                Calling to verification API to determine whether two faces belong to a same person. By inputting two single-face-images, it returns verification result and confidence.
+            </li>
+            <li>
+                <b>Face Grouping:</b> to group faces by visual similarity.<br />
+                Calling to grouping API to divide faces to groups, and each group contains the face with visual similarity. This sample firstly detect faces from the images in a folder then groups the faces and shows the results.
+            </li>
+            <li>
+                <b>Finding Similar Faces:</b> to find similar faces by a given face.<br />
+                Slightly different from grouping sample, this sample also searches similar looking faces, but by a input face as a query face, and a list of candidate faces.
+            <li>
+                <b>Face Identification:</b> to identify a specific person from a query face.<br />
+                Identification is to tell which person the input face belongs to. The first step is to create a "person database", then the second step is to identify which person the input face belongs to.
+            </li>
+        </ul>
+
+        <h2>Build and Run Sample Project</h2>
+        <ol>
+            <li>
+                Click <a href="http://oxford-portal.azurewebsites.net/doc/general/subscription-key-mgmt"> Subscription Key Management</a>
+                to obtain your subscription key which is required for Face API calls.
+            </li>
+            <li>Open <b>"Sample\FaceApiSamples.sln"</b> in root folder in Visual Studio 2013 Solution.</li>
+            <li>
+                Put your subscription key string from above step, into file <b>"Sample\MainWindow.xaml.cs"</b>, find the line <b>"this.SubscriptionKey = null;"</b> and replace the null value with your key string.
+            <li>Build Solution and run.</li>
+        </ol>
+</body>
+</html>

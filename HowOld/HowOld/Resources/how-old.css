@@ -1,0 +1,502 @@
+﻿
+.twitter-share-button[style] {
+    vertical-align: top !important;
+    width: 142px;
+}
+
+* {
+    font-family: 'Microsoft YaHei';
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    transform-origin: 50% 0%;
+    -webkit-transform-origin: 50% 0%;
+    padding-top: 45px;
+    padding-bottom: 24px;
+    background-color: #f89821;
+}
+
+#header {
+    width: 426px;
+    padding-bottom: 50px;
+}
+
+#headerimage {
+    height: 87px;
+    width: 80px;
+    float: left;
+}
+
+#picmeh1id {
+    padding-bottom: 0;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Segoe UI Light,CustomSegoeUILight,Arial;
+    font-size: 58px;
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+}
+
+#headertext {
+    margin-left: 120px;
+}
+
+.subheader {
+    font-size: 18px;
+    margin-top: -2px;
+    margin-left: 12px;
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+}
+
+#demoSpan {
+    color: #e06826;
+    color: rgba(224,104,38,1);
+}
+
+#loadingImage {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#imageDiv {
+    margin-top: 50px;
+    -ms-touch-action: none;
+}
+
+#dontWorryId {
+    margin-top: 20px;
+}
+
+#uploadLabel {
+    margin-top: 160px;
+}
+
+.face-tooltip + .tooltip > .tooltip-inner {
+    background-color: #f1d100;
+    border-radius: 0;
+    color: #d86718;
+    font-size: x-large;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.small-face-tooltip + .tooltip > .tooltip-inner {
+    font-size: 30px;
+}
+
+.big-face-tooltip + .tooltip > .tooltip-inner {
+    font-size: 50px;
+}
+
+img.small-face-tooltip {
+    width: 17.6px;
+    height: 34px;
+    margin-right: 4px;
+    margin-top: -8px;
+}
+
+img.big-face-tooltip {
+    width: 28.6px;
+    height: 60px;
+    margin-right: 6px;
+    margin-top: -13px;
+}
+
+.face-tooltip + .tooltip > .tooltip-arrow {
+    border-bottom-color: #f1d100;
+    border-top-color: #f1d100;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    margin-left: -10px;
+    margin-bottom: -3px;
+}
+
+.action {
+    font-size: 19px;
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    border: 1px solid rgba(248,247,187,1);
+}
+
+.bodyfont {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    font-style: normal;
+    font-size: 21px;
+}
+
+.action:hover {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+    border: 1px solid rgba(248,247,187,1);
+}
+
+.action:focus {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+    border: 1px solid rgba(248,247,187,1);
+}
+
+.action:active {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+    border: 1px solid rgba(248,247,187,1);
+}
+
+.link:hover {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+}
+
+.link:focus {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+}
+
+.link:active {
+    color: #f8f7bb;
+    color: rgba(248,247,187,1);
+    outline: 0 !important;
+}
+
+.link-underline:hover {
+    color: #e06826;
+    color: rgba(224,104,38,1);
+    outline: 0 !important;
+}
+
+.link-underline:focus {
+    color: #e06826;
+    color: rgba(224,104,38,1);
+    outline: 0 !important;
+}
+
+.link-underline:active {
+    color: #e06826;
+    color: rgba(224,104,38,1);
+    outline: 0 !important;
+}
+
+#microsoftIcon {
+    height: 41.4px;
+    width: 167.4px;
+    margin-top: 20px;
+}
+
+#socialDiv {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#maxImageSize {
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 0 !important;
+}
+
+.b_searchboxSubmit {
+    border: none;
+    background: url(/Resources/bing1.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 39px;
+    height: 35px;
+    background-position: 9px center;
+}
+
+#searchText:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@media(max-device-width:767px)and (orientation:landscape) {
+    body {
+        padding-top: 15px;
+    }
+
+    #imageDiv {
+        -ms-touch-action: none;
+        -webkit-transform: scale(.5,.5);
+        transform: scale(.5,.5);
+        margin-top: 0;
+    }
+
+    #header {
+        padding-bottom: 20px;
+        width: 150px;
+    }
+
+    #headerimage {
+        height: 28.71px;
+        width: 26.4px;
+    }
+
+    #picmeh1id {
+        font-size: 23px;
+    }
+
+    #headertext {
+        margin-left: 50px;
+    }
+
+    .subheader {
+        font-size: 16px;
+        margin-left: 1px;
+    }
+
+    #uploadLabel {
+        margin-top: 0;
+    }
+
+    #results {
+        margin-top: -20px;
+    }
+
+    #dontWorryId {
+        margin-top: 10px;
+    }
+
+    #thumbnail {
+        max-height: 500px;
+    }
+
+    .bodyfont {
+        font-size: 15px;
+    }
+
+    input[type='text'], input[type='number'], input[type='search'] {
+        font-size: 16px;
+    }
+
+    #microsoftIcon {
+        margin-top: 10px;
+        height: 31.05px;
+        width: 125.55px;
+    }
+
+    #socialDiv {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    #maxImageSize {
+        font-weight: 100;
+        font-size: 10px;
+    }
+}
+
+@media(max-device-width:480px)and (orientation:portrait) {
+    body {
+        padding-top: 15px;
+    }
+
+    #imageDiv {
+        -ms-touch-action: none;
+        -webkit-transform: scale(.75,.75);
+        transform: scale(.75,.75);
+        margin-top: 40px;
+    }
+
+    #header {
+        padding-bottom: 20px;
+        width: 150px;
+    }
+
+    #headerimage {
+        height: 28.71px;
+        width: 26.4px;
+    }
+
+    #picmeh1id {
+        font-size: 23px;
+    }
+
+    #headertext {
+        margin-left: 50px;
+    }
+
+    .subheader {
+        font-size: 16px;
+        margin-left: 1px;
+    }
+
+    #uploadLabel {
+        margin-top: 90px;
+    }
+
+    #maxImageSize {
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+    #dontWorryId {
+        margin-top: 10px;
+    }
+
+    .bodyfont {
+        font-size: 15px;
+    }
+
+    #results {
+        margin-top: -20px;
+    }
+
+    input[type='text'], input[type='number'], input[type='search'] {
+        font-size: 16px;
+    }
+
+    #microsoftIcon {
+        margin-top: 10px;
+        height: 31.05px;
+        width: 125.55px;
+    }
+
+    #socialDiv {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+}
+
+.ImageSelector {
+    position: relative;
+    margin-left: auto;
+    margin-Right: auto;
+    width: 200px;
+    height: 205px;
+    overflow: visible;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+    .ImageSelector .ScrollArea {
+        height: 205px;
+        width: 2000000px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        background-color: rgba(177,134,72,1);
+        border: solid #f79720;
+        border-width: 50px 500px 50px 500px;
+        box-sizing: content-box;
+        margin-left: -500px;
+        margin-top: -50px;
+    }
+
+        .ImageSelector .ScrollArea img {
+            width: 200px;
+            height: 205px;
+            float: left;
+            margin-left: 0;
+            margin-right: 0;
+            opacity: .4;
+            filter: alpha(opacity=40);
+        }
+
+    .ImageSelector #SelectorBox {
+        border: solid #fff;
+        border-width: 16px 16px 0 16px;
+        width: 233px;
+        height: 220px;
+        margin-top: -271px;
+        margin-left: -16px;
+        margin-Right: auto;
+        position: relative;
+        pointer-events: none;
+        box-shadow: 10px 10px 15px #333;
+    }
+
+    .ImageSelector .iScrollHorizontalScrollbar {
+        bottom: -50px !important;
+    }
+
+    .ImageSelector #SelectorTag {
+        background-color: #fff;
+        border: solid #fff;
+        border-width: 0 16px 0 16px;
+        width: 233px;
+        height: 58px;
+        margin-left: -16px;
+        margin-right: auto;
+        position: relative;
+        box-shadow: 10px 10px 15px #333;
+        text-align: center;
+        padding-top: 6px;
+        box-sizing: border-box;
+    }
+
+        .ImageSelector #SelectorTag button {
+            border: 1px solid #ae750b;
+            font-size: 19px;
+            background: #fff;
+            color: #df6826;
+            color: rgba(223,104,38,1);
+            width: 200px;
+            height: 40px;
+        }
+
+            .ImageSelector #SelectorTag button:hover {
+                outline: 0 !important;
+            }
+
+            .ImageSelector #SelectorTag button:focus {
+                outline: 0 !important;
+            }
+
+            .ImageSelector #SelectorTag button:active {
+                outline: 0 !important;
+            }
+
+.selectedImage {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+
+.body-content {
+    text-align: center;
+}
+
+.bottom-ads {
+    position: fixed;
+    bottom: 0;
+}
+
+footer h5 {
+    font-size: 12px;
+    color: rgba(248,247,187,1);
+}
+
+    footer h5 a, footer h5 a:visited, footer h5 a:hover, footer h5 a:active {
+        color: rgba(248,247,187,1);
+    }
