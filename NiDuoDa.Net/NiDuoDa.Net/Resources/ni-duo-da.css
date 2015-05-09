@@ -19,7 +19,7 @@ body {
     transform-origin: 50% 0%;
     -webkit-transform-origin: 50% 0%;
     padding-top: 45px;
-    padding-bottom: 24px;
+    padding-bottom: 60px;
     background-color: #f89821;
 }
 
@@ -230,7 +230,7 @@ img.big-face-tooltip {
     box-shadow: none;
 }
 
-@media(max-device-width:767px)and (orientation:landscape) {
+@media(max-device-width:767px) and (orientation:landscape) {
     body {
         padding-top: 15px;
     }
@@ -306,7 +306,7 @@ img.big-face-tooltip {
     }
 }
 
-@media(max-device-width:480px)and (orientation:portrait) {
+@media(max-device-width:480px) and (orientation:portrait) {
     body {
         padding-top: 15px;
     }

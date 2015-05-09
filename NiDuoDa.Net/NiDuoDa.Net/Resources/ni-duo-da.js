@@ -283,4 +283,10 @@ function (n) {
 },
 !1);
 loaded();
-searchImages()
+//searchImages();
+
+$(function () {
+    $('#uploadFileId').click(function () {
+        $('#uploadBtn').click();
+    });
+});
